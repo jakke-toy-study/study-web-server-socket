@@ -4,6 +4,8 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+console.log(`WebSocket url is ${process.env.VITE_WS_URL}:${process.env.VITE_WS_PORT}`);
+
 export default defineConfig({
 	plugins: [sveltekit()],
 	define: {
