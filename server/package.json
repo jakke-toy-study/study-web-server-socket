@@ -4,14 +4,15 @@
   "description": "",
   "main": "./dist/main.js",
   "scripts": {
-    "build" : "tsc",
-    "start" : "tsc && node ./dist/main.js"
+    "build": "tsc",
+    "start": "tsc && node ./dist/main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/ws": "^8.5.13",
+    "dotenv": "^16.4.5",
     "typescript": "^5.7.2",
     "ws": "^8.18.0"
   }
